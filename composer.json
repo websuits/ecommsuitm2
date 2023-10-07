@@ -93,10 +93,6 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
         "repositories": {
-        "aromicon_deepl": {
-            "type": "vcs",
-            "url": "git@github.com:aromicon/magento2-deepl.git"
-        },
         "0": {
             "type": "composer",
             "url": "https://repo.magento.com/",
