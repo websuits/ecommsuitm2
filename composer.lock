@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1eb1c07d54c657979375ad5432fd54ec",
+    "content-hash": "ab46010905978375a496e84b2e2771d8",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -50,124 +50,6 @@
                 "source": "https://github.com/2tvenom/CBOREncode/tree/1.0.2"
             },
             "time": "2020-10-27T07:22:41+00:00"
-        },
-        {
-            "name": "amasty/base",
-            "version": "1.14.7",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.amasty.com/community/packages/amasty/base-1.14.7.zip"
-            },
-            "require": {
-                "ext-dom": "*",
-                "php": ">=7.3"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Amasty\\Base\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Amasty Base"
-        },
-        {
-            "name": "amasty/cron-schedule-list",
-            "version": "1.0.7",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.amasty.com/community/packages/amasty/cron-schedule-list-1.0.7.zip"
-            },
-            "require": {
-                "amasty/base": ">=1.14.6",
-                "php": ">=7.3"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Amasty\\CronScheduleList\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Cron Schedule List by Amasty"
-        },
-        {
-            "name": "amasty/sorting",
-            "version": "2.12.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.amasty.com/community/packages/amasty/sorting-2.12.2.zip"
-            },
-            "require": {
-                "amasty/base": ">=1.14.6",
-                "amasty/cron-schedule-list": "*",
-                "php": ">=7.3"
-            },
-            "suggest": {
-                "amasty/improved-sorting-graphql": "Install improved-sorting-graphql module to activate GraphQl and Sorting integration.",
-                "amasty/module-mage-2.4.5-fix": "Install module-mage-2.4.5-fix to fix bugs with Product Collection Changes that were added in 2.4.5.",
-                "amasty/module-sorting-mftf-2": "Install module-sorting-mftf-2 module to implement module's mftf-tests for Magento 2.3.5+ version.",
-                "amasty/module-sorting-mftf-3": "Install module-sorting-mftf-3 module to implement module's mftf-tests for Magento 2.4.0+ version.",
-                "amasty/yotpo": "Install amasty/yotpo module to activate Yotpo Reviews and Sorting integration."
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Amasty\\Sorting\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Improved Sorting by Amasty"
-        },
-        {
-            "name": "aromicon/module-deepl",
-            "version": "2.0.0.18",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aromicon/magento2-deepl.git",
-                "reference": "4347430daa6ae9c386b3e2f5c4e960beaa36528b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aromicon/magento2-deepl/zipball/4347430daa6ae9c386b3e2f5c4e960beaa36528b",
-                "reference": "4347430daa6ae9c386b3e2f5c4e960beaa36528b",
-                "shasum": ""
-            },
-            "require": {
-                "magento/magento-composer-installer": "*",
-                "magento/module-catalog": "*",
-                "php": "~7.4.0|~8.0.0|~8.1.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Aromicon\\Deepl\\": ""
-                }
-            },
-            "description": "Magento 2 Extension for Translation via Deepl API",
-            "support": {
-                "source": "https://github.com/aromicon/magento2-deepl/tree/v2.0.0.18",
-                "issues": "https://github.com/aromicon/magento2-deepl/issues"
-            },
-            "time": "2023-03-15T10:38:46+00:00"
         },
         {
             "name": "astock/stock-api-libphp",
